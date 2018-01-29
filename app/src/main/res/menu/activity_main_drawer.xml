@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_og"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Ondas Gerais" />
+        <item
+            android:id="@+id/nav_oem"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Ondas Eletromagnéticas" />
+    </group>
+
+    <item android:title="Sobre">
+        <menu>
+            <item
+                android:id="@+id/nav_id"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Idealizador" />
+            <item
+                android:id="@+id/nav_app"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Aplicativo" />
+        </menu>
+    </item>
+
+</menu>
